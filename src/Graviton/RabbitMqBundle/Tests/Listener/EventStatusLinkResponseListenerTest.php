@@ -61,10 +61,8 @@ class EventStatusLinkResponseListenerTest extends \PHPUnit_Framework_TestCase
                     switch (func_get_arg(0)) {
                         case '_route':
                             return 'graviton.core.rest.product.post';
-                            break;
                         case 'selfLink':
                             return 'graviton-api-test/core/product';
-                            break;
                     }
                 }
             )

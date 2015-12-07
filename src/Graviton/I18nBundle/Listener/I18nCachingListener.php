@@ -7,7 +7,6 @@ namespace Graviton\I18nBundle\Listener;
 
 use Graviton\I18nBundle\Event\TranslatablePersistEvent;
 use Graviton\I18nBundle\Service\I18nCacheUtils;
-use Symfony\Component\EventDispatcher\Event;
 
 /**
  * @author   List of contributors <https://github.com/libgraviton/graviton/graphs/contributors>
@@ -49,11 +48,9 @@ class I18nCachingListener
     /**
      * hooked to the 'kernel.terminate' event - persists changes in the cache utils
      *
-     * @param Event $event event
-     *
      * @return void
      */
-    public function onTerminate(Event $event)
+    public function onTerminate()
     {
         $this->cacheUtils->processPending();
     }

@@ -7,8 +7,6 @@
 
 namespace Graviton\RabbitMqBundle\Listener;
 
-use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
-
 /**
  * @author   List of contributors <https://github.com/libgraviton/graviton/graphs/contributors>
  * @license  http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -20,11 +18,9 @@ class DummyResponseListener
     /**
      * dummy event
      *
-     * @param FilterResponseEvent $event response listener event
-     *
      * @return void
      */
-    public function onKernelResponse(FilterResponseEvent $event)
+    public function onKernelResponse()
     {
         return;
     }

@@ -3,7 +3,6 @@ services:
 - mongodb
 - rabbitmq
 sudo: required
-dist: precise
 group: edge
 before_script:
 - >

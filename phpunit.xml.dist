@@ -13,9 +13,11 @@
     bootstrap                   = "app/bootstrap.tests.php" >
   <testsuites>
     <testsuite name="integration1">
+      <!--
       <directory>src/*/A*Bundle/Tests/Controller</directory>
       <directory>src/*/B*Bundle/Tests/Controller</directory>
-      <directory>src/*/C*Bundle/Tests/Controller</directory>
+      -->
+      <directory>src/*/CoreBundle/Tests/Controller</directory>
     </testsuite>
     <testsuite name="integration2">
       <directory>src/*/D*Bundle/Tests/Controller</directory>

@@ -3,6 +3,7 @@ services:
 - mongodb
 - rabbitmq
 sudo: required
+dist: trusty
 group: edge
 before_script:
 - >

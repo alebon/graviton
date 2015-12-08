@@ -12,37 +12,37 @@
     syntaxCheck                 = "false"
     bootstrap                   = "app/bootstrap.tests.php" >
   <testsuites>
-    <testsuite name="integration1a">
+    <testsuite name="integration1">
       <directory>src/*/A*Bundle/Tests/Controller</directory>
       <directory>src/*/B*Bundle/Tests/Controller</directory>
       <directory>src/*/C*Bundle/Tests/Controller</directory>
     </testsuite>
-    <testsuite name="integration1b">
+    <testsuite name="integration2">
       <directory>src/*/D*Bundle/Tests/Controller</directory>
       <directory>src/*/E*Bundle/Tests/Controller</directory>
       <directory>src/*/F*Bundle/Tests/Controller</directory>
     </testsuite>
-    <testsuite name="integration2">
+    <testsuite name="integration3">
       <directory>src/*/G*Bundle/Tests/Controller</directory>
       <directory>src/*/H*Bundle/Tests/Controller</directory>
       <directory>src/*/I*Bundle/Tests/Controller</directory>
       <directory>src/*/J*Bundle/Tests/Controller</directory>
     </testsuite>
-    <testsuite name="integration3">
+    <testsuite name="integration4">
       <directory>src/*/K*Bundle/Tests/Controller</directory>
       <directory>src/*/L*Bundle/Tests/Controller</directory>
       <directory>src/*/M*Bundle/Tests/Controller</directory>
       <directory>src/*/N*Bundle/Tests/Controller</directory>
       <directory>src/*/O*Bundle/Tests/Controller</directory>
     </testsuite>
-    <testsuite name="integration4">
+    <testsuite name="integration5">
       <directory>src/*/P*Bundle/Tests/Controller</directory>
       <directory>src/*/Q*Bundle/Tests/Controller</directory>
       <directory>src/*/R*Bundle/Tests/Controller</directory>
       <directory>src/*/S*Bundle/Tests/Controller</directory>
       <directory>src/*/T*Bundle/Tests/Controller</directory>
     </testsuite>
-    <testsuite name="integration5">
+    <testsuite name="integration6">
       <directory>src/*/U*Bundle/Tests/Controller</directory>
       <directory>src/*/V*Bundle/Tests/Controller</directory>
       <directory>src/*/W*Bundle/Tests/Controller</directory>

@@ -8,7 +8,7 @@ group: edge
 before_script:
 - >
     if [ $(phpenv version-name) != "hhvm" ] && [ $(phpenv version-name) != "7.0" ]; then
-        sudo echo "extension = mongo.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini;
+        echo "extension = mongo.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/travis.ini;
     fi
 - >
     if [ $(phpenv version-name) = "hhvm" ] || [ $(phpenv version-name) = "7.0" ]; then

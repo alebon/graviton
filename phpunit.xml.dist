@@ -12,15 +12,17 @@
     syntaxCheck                 = "false"
     bootstrap                   = "app/bootstrap.tests.php" >
   <testsuites>
-    <testsuite name="integration1">
+    <testsuite name="integration1a">
       <directory>src/*/A*Bundle/Tests/Controller</directory>
       <directory>src/*/B*Bundle/Tests/Controller</directory>
       <directory>src/*/C*Bundle/Tests/Controller</directory>
+    </testsuite>
+    <testsuite name="integration1b">
       <directory>src/*/D*Bundle/Tests/Controller</directory>
       <directory>src/*/E*Bundle/Tests/Controller</directory>
+      <directory>src/*/F*Bundle/Tests/Controller</directory>
     </testsuite>
     <testsuite name="integration2">
-      <directory>src/*/F*Bundle/Tests/Controller</directory>
       <directory>src/*/G*Bundle/Tests/Controller</directory>
       <directory>src/*/H*Bundle/Tests/Controller</directory>
       <directory>src/*/I*Bundle/Tests/Controller</directory>
